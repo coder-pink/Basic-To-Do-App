@@ -1,0 +1,29 @@
+
+.task-input-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.task-input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.add-task-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4286cf;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.1s ease-in;
+}
+
+.add-task-button:hover {
+    background-color: #0056b3;
+}
